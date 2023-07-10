@@ -130,3 +130,65 @@
     padding-right: 50px;
     border-right: 2px solid rgb(255, 94, 0);
 }
+
+.appointment-container {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    width: 80%;
+    height: 130px;
+    margin-top: -50px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.call-icon {
+    width: 70px;
+}
+.app-text p {
+    width: 400px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 50px;
+    border-right: 3px solid gray;
+}
+
+.blog-container {
+    width: 90%;
+    margin: 0 auto 40px auto;
+}
+.blog-description {
+    font-size: 20px;
+}
+.blog-box {
+    width: 300px;
+    height: 330px;
+    box-shadow: 5px 7px 5px gray;
+    border-radius: 5px;
+}
+.blog-box-img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.blog-heading {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.blog-box-content {
+    padding: 10px;
+}
+.blog-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
