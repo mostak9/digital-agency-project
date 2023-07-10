@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+.menus {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.menus li {
+    margin-right: 20px;
+}
+
+.banner-container {
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgb(51, 50, 50), rgb(58, 56, 56));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.title {
+    font-size: 60px;
+    font-weight: bold;
+}
+.primary-color {
+    color: rgb(255, 94, 0);
+}
+.banner-description {
+    width: 500px;
+    margin: 15px auto;
+    font-size: 18px;
+}
+.btn {
+    padding: 15px 20px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.bg-primary {
+    background-color: white;
+    color:  rgb(255, 94, 0);
+}
+.service-container {
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgb(20, 20, 20), rgb(23, 23, 23));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 80px; */
+}
+.service-title {
+    font-size: 40px;
+    margin-top: 15px;
+}
+.service-description {
+    width: 400px;
+}
+.boxes-one {
+    display: flex;
+    gap: 7px;
+    margin-top: 7px;
+}
+.box {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    width: 220px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.icon {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.author-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.service-description {
+    font-size: 18px;
+    margin: 15px 0;
+}
+.service-content li {
+    list-style-type: decimal;
+}
+.service-profile {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.service-man {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 50px;
+    border-right: 2px solid rgb(255, 94, 0);
+}
