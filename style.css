@@ -192,3 +192,34 @@
     align-items: center;
     justify-content: space-around;
 }
+footer {
+    background-color: rgb(19, 18, 18);
+}
+.footer-box-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 200px;
+    color: white;
+}
+.footer-box p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.social-icon {
+   font-size: 30px;
+    margin-right: 10px;
+}
+
+.footer-logo, .footer-title {
+    margin-bottom: 30px;
+}
+
+.rights {
+    padding: 15px 200px;
+    color: white;
+    text-align: center;
+}
+.rights p {
+    margin-top: 10px;
+}
